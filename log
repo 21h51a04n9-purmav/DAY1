@@ -1,0 +1,4 @@
+import math
+number=int(input())
+result=math.log(number)
+print(result)

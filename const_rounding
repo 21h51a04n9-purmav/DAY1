@@ -1,0 +1,16 @@
+# pi Value
+import math
+print(math.pi)
+# euler
+import math
+print(math.e)
+# Rounding Functions
+import math
+number = float(input())
+result = math.ceil(number)
+print( result)
+# floor
+import math
+number = 4.8
+result = math.floor(number)
+print( result)

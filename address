@@ -1,0 +1,4 @@
+city="Hyderabad"
+state="Telangana"
+pincode="500010"
+print(city,state,pincode)

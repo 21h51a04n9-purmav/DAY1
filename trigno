@@ -1,0 +1,10 @@
+import math
+angle1=math.radians(int(input()))
+result1=math.sin(angle1)
+print(result1)
+angle2=math.radians(int(input()))
+result2=math.cos(angle2)
+print(result2)
+angle3=math.radians(int(input()))
+result3=math.tan(angle3)
+print(result3)

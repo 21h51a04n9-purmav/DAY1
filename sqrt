@@ -1,0 +1,4 @@
+import math
+number=int(input())
+result=math.sqrt(number)
+print(result)

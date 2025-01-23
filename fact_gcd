@@ -1,0 +1,9 @@
+#Factorial
+import math
+number = int(input())
+result = math.factorial(number)
+print(result)
+# GCD
+import math
+result = math.gcd(24,36)
+print(result)
