@@ -4,17 +4,12 @@ def get_input():
     a=int(input("enter a value:"))
     b=int(input("enter b value:"))
     c=int(input("enter c value:"))
-    return(a,b,c)
-def compute_result(a,b,c):
-    if(a>b&a>c):
-        largest=a
-    elif(b>a&b>c):
-        largest=b
+    if(a>b and a>c):
+        print("largest=a",a)
+    elif(b>a and b>c):
+        print("largest=b",b)
     else:
-        largest=c
-    #return largest
+        print("largest=c",c)
 def main():
-    (a,b,c)=get_input()
-    largest=compute_result(a,b,c)
-    display(largest)
+    get_input()
 main()
