@@ -1,0 +1,20 @@
+def display(data):
+    print(f"largest number is:{data}")
+def get_input():
+    a=int(input("enter a value:"))
+    b=int(input("enter b value:"))
+    c=int(input("enter c value:"))
+    return(a,b,c)
+def compute_result(a,b,c):
+    if(a>b&a>c):
+        largest=a
+    elif(b>a&b>c):
+        largest=b
+    else:
+        largest=c
+    #return largest
+def main():
+    (a,b,c)=get_input()
+    largest=compute_result(a,b,c)
+    display(largest)
+main()
