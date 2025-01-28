@@ -1,0 +1,29 @@
+import math
+a=[]
+def prime(n):
+   if(n<=1):
+      return False
+   for i in range(2,int(n**0.5)+1):
+      if n%i==0:
+         return False
+   return True
+def print_primes(m,n):
+   for n in range(m,n+1):
+      if prime(n):
+        a.append(n)
+   print(a)
+m=int(input())
+n=int(input())
+print_primes(m,n)
+def smallest_largest(m,n):
+    small = a[0]
+    big=a[0]
+    for i in range(1, len(a)):
+        if a[i] < small:
+            small = a[i]
+        if a[i] > big:
+            big = a[i]
+    return small,big
+def main():
+    print("Smallest Number &largest number are:", smallest_largest(m,n))
+main()
