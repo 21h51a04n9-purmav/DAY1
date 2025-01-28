@@ -1,0 +1,20 @@
+D={}
+print("an empty dictonary:",D)
+D={'spam:2','eggs:3'}
+print("dictonary keys and values:",D)
+D={'food':{'spam:2','egg:3'}}
+print("nested dictonary:",D)
+D=dict(name='milky',age='20')
+print("dictionary using dict:",D)
+keyslist=["Cow","Fish"]
+print(f"keyslist:{keyslist}")
+valslist=["shed","Fish Bowl"]
+print(f"vals lists:{valslist}")
+D1=dict(zip(keyslist,valslist))
+print("combined list:",D)
+D.keys()
+D.values()
+D.items()
+D.copy()
+D.get(key,default)
+print(D.values())

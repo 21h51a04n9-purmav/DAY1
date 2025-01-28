@@ -1,0 +1,3 @@
+number_list=[1,'jyothi',"topper"]
+unique_numbers=set(number_list)
+print("unique numbers:",unique_numbers)

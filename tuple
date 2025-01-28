@@ -1,0 +1,15 @@
+T=()
+print("empty tuple:",T)
+T=(0,)
+print("one item tuple:",T)
+T=(0,'Ni',1.2,3)
+print("four-items in tuple:",T)
+T=0,'Ni',1.2,3
+print("another four-item tuple:",T)
+T=('abc',('def','ghi'))
+print("nested tuple:",T)
+T=tuple('spam')
+
+
+
+

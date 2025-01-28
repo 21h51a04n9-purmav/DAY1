@@ -1,0 +1,14 @@
+def remove_whitespace(string):
+    return ''.join(string.split())
+def is_palindrome(word):
+    return word == word[::-1]
+def count_palindromes(string):
+    words = string.split()
+    return sum(1 for word in words if is_palindrome(word))
+def main():
+    get_input = input("Enter a string:")
+    processed_string = remove_whitespace(get_input)
+    palindrome_count = count_palindromes(get_input)
+    print(f"String without white spaces: '{processed_string}'")
+    print(f"Number of palindromes in the input string: {palindrome_count}")
+main()

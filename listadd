@@ -1,0 +1,10 @@
+arr=[]
+sum=0
+n=int(input("enter n value:"))
+for i in range(n):
+    a=int(input("enter  a value:"))
+    arr.append(a)
+    sum=sum+arr[i]
+print(arr)
+print(sum)
+

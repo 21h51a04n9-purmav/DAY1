@@ -1,0 +1,8 @@
+empty_set=set()
+fruits={"apple","banana","strawberry"}
+print("empty set:",empty_set)
+print("set of fruits:",fruits)
+numbers={1,2,3,4}
+numbers.add(7)
+numbers.remove(3)
+print("updated numbers:",numbers)
