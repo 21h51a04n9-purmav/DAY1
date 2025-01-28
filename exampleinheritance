@@ -1,0 +1,26 @@
+class school:
+    def __init__(self):
+        self.name="varshitha"
+        self.idno="4n9"
+        self.study="10th-class"
+        self.schlname="meridian"
+    def display_School(self):
+        print("SCHOOL DETAIL")
+class college(school):
+    def display_College(self):
+        print("school is extended to college")
+class subcollege(college):
+    def under_graduate(self):
+        print("UG")
+    def post_graduate(self):
+        print("PG")
+d=college()
+d.display_School()
+print(d.name)
+print(d.idno)
+print(d.study)
+print(d.schlname)
+d.display_College()
+d1=subcollege()
+d1.under_graduate()
+d1.post_graduate()
